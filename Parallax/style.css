@@ -18,7 +18,7 @@ body{
     background-attachment: fixed;
 }
 .fondo2{
-    background: url('./assest/Shrek.jpg');
+    background: url('./assest/shrek-donkey-puss-cartoon-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,4 +28,29 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.fondo4{
+    background: url('./assest/34655.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer {
+    color: whitesmoke;
+    font-size: 12vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.textContent {
+    width: 100%;
+    text-align: center;
+}
+.textImageBackground {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
