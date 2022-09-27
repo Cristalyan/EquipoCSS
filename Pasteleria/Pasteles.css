@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(250, 238, 73);
+}
+.Div1{
+    background-image: url('./Imagenes/pastel3leches.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    font-size: 8vw;
+    font-weight: bold;    
+    display: flex;
+    align-items: center;
+}
+.titulo1{
+    text-align: center;
+    width: 100%;
+}
+.titulo2{
+    text-align: center;
+    color: rgb(163, 189, 238);
+    background-color: black;
+    padding: 10px;
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.secciones{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover {
+    transform: scale(1.2);
+}
+

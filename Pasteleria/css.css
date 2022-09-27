@@ -3,7 +3,7 @@
     padding: 0;
 	box-sizing: border-box;
 }
-.hero {
+.heroe {
 	background: #000;
 	height: 100vh;
     width: 100%;
@@ -11,7 +11,7 @@
 	align-items: center;
 	transition: 0.5s;
 }
-.hero:hover{
+.heroe:hover{
 	transform: scale(1.2);
 }
 .texto {
