@@ -80,3 +80,84 @@ footer p {
     text-align: center;
     padding: 40px;
 }
+.heroe {
+	background: #000;
+	height: 100vh;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+}
+.heroe:hover{
+	transform: scale(1.2);
+}
+.texto {
+	width: 100%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 300px;
+	font-weight: bold;
+
+	background-image: url('./Imagenes/1844.jpg');
+	background-size: cover;
+	background-position-y: 700px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+}
+.fondo{
+    background: url('./Imagenes/xv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.articleContainer{
+    height: 100vh;
+    width: 100%;
+}
+.textContainer {
+    color: whitesmoke;
+    font-size: 12vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.textContent {
+    width: 100%;
+    text-align: center;
+}
+.textImageBackground {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.dd{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.mrgtext{
+    background-color: aqua;
+    margin-left: 15%;
+    margin-right: 18%;
+}
+.tmmrg{
+    height: 30vh;
+    width: 100%;
+}
+.textCuadro{
+    font-size: 12vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    background-color: transparent;
+}
