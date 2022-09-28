@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    margin-left: 2%;
+    width: 60vw;
+    height: 40vh;
+    background-color: rgb(200, 143, 254);
+}
+.textfieldCont{
+    float: left;
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+.textfieldCont > label{
+    float: left;
+    margin-bottom: 10px;
+}
+.textfieldCont > input{
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+.btnCont{
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.btnCont > button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
