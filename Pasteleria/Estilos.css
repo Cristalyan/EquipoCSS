@@ -121,7 +121,7 @@ footer p {
 }
 .textContainer {
     color: whitesmoke;
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: bold;
     width: 96%;
     height: 100%;
@@ -144,9 +144,9 @@ footer p {
     text-transform: uppercase;
 }
 .mrgtext{
-    background-color: #FFC09F;
-    margin-left: 15%;
-    margin-right: 18%;
+    background-color: #ffdd98;
+    margin-left: 10%;
+    margin-right: 12%;
 }
 .tmmrg{
     height: 30vh;
