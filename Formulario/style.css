@@ -9,6 +9,13 @@ body{
     height: 40vh;
     background-color: rgb(200, 143, 254);
 }
+.textfieldCont > input::placeholder{
+    text-align: center;
+    color: brown;
+}
+.textfieldCont > input{
+    text-align: center;
+}
 .textfieldCont{
     float: left;
     width: 80%;
