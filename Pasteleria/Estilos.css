@@ -9,6 +9,10 @@ body{
     background-color: #ffdd98;
 }
 
+.navbar{
+    position: sticky;
+    top:0;
+}
 h1{
     font-size: 35px;
     text-align: center;
@@ -93,6 +97,9 @@ footer p {
 .heroe:hover{
 	transform: scale(1.2);
 }
+.titulo{
+    text-shadow: 0 0 10px rgb(132, 208, 255), 0 0 20px rgb(20, 92, 227);
+}
 .texto {
 	width: 100%;
 	color: transparent;
@@ -163,21 +170,13 @@ footer p {
     padding: 2%;
     background-color: transparent;
 }
-.icon{
-}
 .faceicon{
-    margin-left: 25%;
+    margin-left: 36%;
     width: 90px;
     height: 90px;
     background-color: #ffdd98;
 }
 .instaicon{
-    margin-left: 15%;
-    width: 90px;
-    height: 90px;
-    background-color: #ffdd98;
-}
-.twitticon{
     margin-left: 15%;
     width: 90px;
     height: 90px;

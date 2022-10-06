@@ -1,0 +1,117 @@
+html{
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articleContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslateblue;
+}
+.fondo1{
+    background: url('./assest/CopoNieve.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo2{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo3{
+    background: url('./assest/SJNAKXa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo4{
+    background: url('./assest/Mexicanoo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textCub{
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fondo5{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo6{
+    background: url('./assest/CopoNieve.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo7{
+    background: url('./assest/Pinoo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo8{
+    background: url('./assest/Santa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo9{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo10{
+    background: url('./assest/Marino.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo11{
+    background: url('./assest/Antifazz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo12{
+    background: url('./assest/Corazon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer{
+    color: white;
+    font-size: 12vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.textContent{
+    width: 100%;
+    text-align: center;
+}
+.TextoT{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.textC{
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(132, 208, 255), 0 0 20px rgb(20, 92, 227);
+}

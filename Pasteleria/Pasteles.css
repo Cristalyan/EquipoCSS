@@ -27,6 +27,8 @@ body{
     background-color: black;
     padding: 10px;
     color: #FFBFDD;
+    position: sticky;
+    top: 0;
 }
 
 .contenedor {
