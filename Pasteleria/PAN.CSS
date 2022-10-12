@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(Pan/panaderia.jpg);
+    background-size: cover;
+}
+header{
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Pan/fondo4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.boton{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav.active{
+    background: #ffdd98;
+    padding: 15px;
+}
+.nav.active .logo,
+.nav.active a{
+    color:black;
+
+}
+.nav.active a:hover{
+    background:  #79ADDC;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    
+}
+.logo-img{
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 25px;
+
+}
+
+.menu{
+    display: flex;
+}
+.menu  li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #79ADDC;
+    color: black;
+    border-radius: 15px;
+
+} 
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background:  #79ADDC;
+    padding: 10px;
+    height: 80px;
+    border-radius: 40px;
+
+}
+.buscar-texto{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition: .3s;
+    width: 0;
+}   
+
+/*RESPONSIVE*/
+@media screen and (min-width:480px){
+    .buscar:hover > .buscar-texto{
+        width: 190px;
+    }
+}
+@media screen and (min-width:1024px){
+    .buscar:hover > .buscar-texto{
+        width: 500px;
+    }
+}
+
+.scrol{
+    height: 20px;
+}
+.secciones{
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 50vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+p{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    margin-left: 50px;  
+    margin-bottom: 10px;
+}
+img{
+    height: 20vh;
+    margin-right: 50px;
+    border-radius: 75px;
+    
+    
+}
+img:hover{
+    transition: all 0.3s ease;
+    padding: 10px 10px;
+    
+}
+.division{
+    background-color: #79ADDC;
+    text-align: center;
+    height: 5vh;
+    color: #FFBFDD;
+    margin-bottom: 20px;
+    
+}

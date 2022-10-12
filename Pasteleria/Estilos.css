@@ -8,17 +8,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffdd98;
 }
-
 .navbar{
     position: sticky;
     top:0;
 }
-h1{
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 42.5%;
+    border-radius: 50%;
+}
+.titulo{
     font-size: 35px;
-    text-align: center;
     background-color: black;
     color: aliceblue;
-    padding: 20px;
+    padding: 5px;
+    text-shadow: 0 0 10px rgb(132, 208, 255), 0 0 20px rgb(20, 92, 227);
 }
 nav ul {
     background-color: #79ADDC;
@@ -37,21 +42,26 @@ nav a {
     color: whitesmoke;
     padding: 10px;
     width: 150px;
-    
 }
 nav li:hover {
     background-color: black;
     transform: scale(1.2);
 }
-img {
+.imgsec {
+    margin-top: 30%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     transition: 0.5s;
     object-fit: cover;
 }
-img:hover {
+.imgsec:hover {
     transform: scale(1.2);
+}
+.imgsec2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 .contenedor {
     display: flex;
@@ -66,11 +76,63 @@ img:hover {
     align-items: center;
     padding: 40px;
 }
-.menu-secundario{
+.SegundaParte{
     width: 20%;
     margin-top: 50px;
     align-items: center;
-    padding: 70px;
+    padding: 60px;
+}
+#Boton{
+    background-color: transparent;
+    font-weight: bold;
+    color: red;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #79ADDC;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #FFBFDD,
+        -.5rem -.5rem 1rem #79ADDC;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+#Boton:hover{
+    box-shadow: .5rem .5rem 1rem #79ADDC,
+        -.5rem -.5rem 1rem #FFBFDD;
+}
+#Boton:active{
+    box-shadow:inset .2rem .2rem 1rem #79ADDC,
+        inset -.2rem -.2rem 1rem #FFBFDD;
+}
+.fnd1{
+    background-image: url('./Imagenes/cake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.fnd2{
+    background-image: url('./Imagenes/gall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.fnd3{
+    background-image: url('./Imagenes/pann.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.cc2{
+    margin-left: 70%;
+    margin-right: 10%;
 }
 .cc{
     color: red;
@@ -97,9 +159,6 @@ footer p {
 .heroe:hover{
 	transform: scale(1.2);
 }
-.titulo{
-    text-shadow: 0 0 10px rgb(132, 208, 255), 0 0 20px rgb(20, 92, 227);
-}
 .texto {
 	width: 100%;
 	color: transparent;
@@ -118,7 +177,13 @@ footer p {
 	-webkit-text-fill-color: transparent;
 }
 .fondo{
-    background: url('./Imagenes/xv.jpg');
+    background: url('./Imagenes/local.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo2{
+    background: url('./Imagenes/1844.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -140,6 +205,7 @@ footer p {
 .textContent {
     width: 100%;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .textImageBackground {
     -webkit-background-clip: text;
@@ -151,7 +217,7 @@ footer p {
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
-.mrgtext{
+#mrgtext{
     background-color: #ffdd98;
     margin-left: 10%;
     margin-right: 12%;
@@ -159,6 +225,7 @@ footer p {
 .tmmrg{
     height: 32vh;
     width: 100%;
+    font-family:Arial, Helvetica, sans-serif
 }
 .textCuadro{
     font-size: 12vw;
@@ -175,10 +242,38 @@ footer p {
     width: 90px;
     height: 90px;
     background-color: #ffdd98;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.faceicon:hover {
+    transform: scale(1.2);
 }
 .instaicon{
     margin-left: 15%;
     width: 90px;
     height: 90px;
     background-color: #ffdd98;
+    border-radius: 50%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.instaicon:hover {
+    transform: scale(1.2);
+}
+.Ubi{
+    margin-left: 18%;
+    background: none;
+    text-align: center;
+    color: #79ADDC;
+}
+.Ubip{
+    margin-left: 18%;
+    font-size: 12px;
+}
+.Ub{
+    margin-left: 30%;
+    font-size: 30px;
+    color:coral;
+    font-family: 'Times New Roman', Times, serif;
 }
