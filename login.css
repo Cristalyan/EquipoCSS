@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #F4D9E5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    width: 300px;
+    padding: 40px;
+    background: #ED96BF;
+    text-align: center;
+}
+.titulo{
+    color: white;
+    
+}
+.texto input[type="text"],
+.texto input[type="password"],
+.texto button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #DA2D7E;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    /* Para que no cambie bruscamente */
+    transition: 0.25s;
+}
+/* FOCUS(Cuando lo seleccione) */
+.texto input[type="text"]:focus,
+.texto input[type="password"]:focus {
+    width: 220px;
+    border-color: white;
+}
+.texto button[type="submit"] {
+    border: 0;
+    background: #DA2D7E;
+}
