@@ -30,7 +30,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 30px;
     transition: all 0.5s ease;
     padding-top: 50px;
     padding-left: 10%;
@@ -55,17 +55,16 @@ header{
     font-size: 25px;
     color: rgb(255, 255, 255);
     font-weight: 100;
-    
 }
 .logo-img{
     height: 50px;
     margin-right: 15px;
     border-radius: 25px;
-
 }
 
 .menu{
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
 }
 .menu  li{
     list-style: none;
@@ -161,5 +160,4 @@ img:hover{
     height: 5vh;
     color: #FFBFDD;
     margin-bottom: 20px;
-    
 }
