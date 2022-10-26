@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#body{
+    background-color: #FFEE93;
+}
+.Div1{
+    background-image: url('./Imagenes/pastel3leches.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    font-size: 8vw;
+    font-weight: bold;    
+    display: flex;
+    align-items: center;
+
+    animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        filter: blur(20px);
+    }
+    
+    10%{
+        opacity: 1;
+        filter: brightness (2) blur(10px);
+    }
+}
+#titulo1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #79ADDC;
+}
+.titulo2{
+    font-size: 35px;
+    background-color: black;
+    color: #FFEE93;
+    padding: 5px;
+}
+nav ul {
+    background-color: #79ADDC;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 3px;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 41%;
+    border-radius: 50%;
+}
+.navbar{
+    position: sticky;
+    top:0;
+}
+.personalizados{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 14ch;
+    animation: typing 5s steps(14),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 100px;
+    margin-left: 20%;
+}
+.Pasteles_XV{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 14ch;
+    animation: typing 5s steps(14),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 100px;
+    margin-left: 20%;
+}
+.Pasteles_bodas{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+    animation: typing 5s steps(16),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 100px;
+    margin-left: 15%;
+}
+.texto{
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    width: 80vw;
+    margin-left: 10%;
+}
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+.img{
+    width: 500px;
+    height: 400px;
+    margin-left: 30%;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+    height: 100vh;
+}
+}
