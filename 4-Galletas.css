@@ -1,0 +1,208 @@
+html{
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #79ADDC;
+}
+.articleContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFBFDD;
+}
+.fondo1{
+    background: url('./assest/CopoNieve.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo2{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo3{
+    background: url('./assest/SJNAKXa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo4{
+    background: url('./assest/Mexicanoo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textCub{
+    width: 100%;
+    background-color: #79ADDC;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fondo5{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo6{
+    background: url('./assest/CopoNieve.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo7{
+    background: url('./assest/Pinoo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo8{
+    background: url('./assest/Santa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo9{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo10{
+    background: url('./assest/boda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo11{
+    background: url('./assest/Antifazz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo12{
+    background: url('./assest/LLLLL.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo13{
+    background: url('./assest/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textContainer{
+    color: white;
+    font-size: 12vw;
+    font-weight: bold;
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+
+}
+.textContent{
+    width: 100%;
+    text-align: center;
+    color: #79ADDC;
+}
+.TextoT{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.textC{
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 10px #79ADDC, 0 0 20px #79ADDC;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 42.5%;
+    border-radius: 50%;
+}
+.titulo1{
+    font-size: 35px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    text-shadow: 0 0 10px rgb(132, 208, 255), 0 0 20px rgb(20, 92, 227);
+}
+nav ul {
+    background-color: #79ADDC;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 3px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+nav li:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
+.Izquierda{
+    background-color: #FFBFDD;
+    height: 100vh;
+    width: 60%;
+}
+.Derecha{
+    background: url(./assest/GPers.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 100vh;
+}
+.Titulo{
+    color: red;
+    text-align: center;
+}
+#P-D{
+    display: flex;
+}
+.t1{
+    margin: 20%;
+    font-size: 55px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+p{
+    font-size: 25px;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+.ct{
+    border: 3px solid #033f74;
+    padding: 20px;
+    color: #00325e;
+    border-radius: 40px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
